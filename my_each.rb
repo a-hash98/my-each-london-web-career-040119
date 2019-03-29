@@ -9,7 +9,7 @@ def my_each(array) # put argument(s) here
   else
     puts "No block was given!"
   end
-ends
+end
 
 my_each(["a","b","c"]) do |item|
   puts item
