@@ -9,6 +9,7 @@ def my_each(array) # put argument(s) here
   else
     return "No block was given!"
   end
+  return array
 end
 
 my_each(["a","b","c"]) do |item|
