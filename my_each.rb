@@ -11,6 +11,6 @@ def my_each(array) # put argument(s) here
   end
 end
 
-my_each(["a","b","c"]) do |item|
+my_each(array) do |item|
   puts item
 end
